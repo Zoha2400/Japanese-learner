@@ -1,8 +1,12 @@
+import Content from "./components/mainpage/Content"
+
 
 function App() {
   return (
-    <div className="container-wrap bg-red-500 text-center">
-      Hello World
+    <div className="container-wrap text-center bg-slate-100">
+
+      <Content/>
+
     </div>
   )
 }
