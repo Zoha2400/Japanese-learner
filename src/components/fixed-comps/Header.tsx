@@ -16,6 +16,8 @@ function Header() {
           </div>
           TokyoTalk
         </h1>
+        
+        <p onClick={clickDetect} className={`z-0 text-base  text-gray-800 font-bold cursor-pointer transition-all group ease-in-out delay-200 flex items-center justify-center select-text relative  ${ isClicked ? 'opacity-0 w-0' : ' sm:w-2/3 md:w-1/4 lg:w-1/12 xl:w-1/12 opacity-100  p-4'}`}> <span className="mr-1 animate-pulse">{'<'}</span> Menu</p>
     </div>
   )
 }
