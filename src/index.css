@@ -31,3 +31,4 @@ body::-webkit-scrollbar-thumb:hover {
 body::-webkit-scrollbar-thumb:focus {
   background-color: #777; /* Цвет при фокусе */
 }
+
