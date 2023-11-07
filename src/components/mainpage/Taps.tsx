@@ -1,6 +1,6 @@
 function Taps({tap}) {
   return (
-    <div className="w-auto h-40 bg-stone-200 rounded-xl flex justify-center items-center relative overflow-hidden">
+    <div className="w-auto h-40 bg-stone-200 rounded-xl flex justify-center items-center relative overflow-hidden hover:-translate-y-2 transition-all">
         
         <p>{tap.input}</p>
 

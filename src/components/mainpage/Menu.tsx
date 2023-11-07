@@ -24,17 +24,29 @@ function Menu({isClicked}) {
                     <p className="w-full group-hover:top-0  group-hover:left-0 bg-black -z-10 text-zinc-800 transition-all delay-75 absolute top-1.5 left-2.5 p-1">Японский язык - это просто</p>
                   </p>
 
-                  <p className="mt-4 ml-4 text-xl h-10 z-10 font-extrabold text-white relative cursor-pointer group flex justify-center p-1">
+                  <p className="mt-4 ml-4 text-xl h-10 z-10 font-extrabold text-black relative cursor-pointer group flex justify-center p-1">
                     Страница тестов
-                    <p className="w-full group-hover:top-0  group-hover:left-0 bg-black -z-10 text-zinc-800 transition-all delay-75 absolute top-1.5 left-2.5 p-1">Страница тестов</p>
+                    <p className="w-full group-hover:top-0  group-hover:left-0 bg-white -z-10 text-white transition-all delay-75 absolute top-1.5 left-2.5">
+                      <div className="flag-wrapper w-10 h-10 relative overflow-hidden">
+                      <div className="redb w-10 h-10 bg-red-600 absolute -bottom-2 rounded-se-full"></div>
+                      </div>
+                    </p>
                   </p>
-                  <p className="ml-4 mt-2 text-xl h-10 z-10 font-extrabold text-white relative cursor-pointer group flex justify-center p-1">
+                  <p className="mt-4 ml-4 text-xl h-10 z-10 font-extrabold text-black relative cursor-pointer group flex justify-center p-1">
                     Наши уроки
-                    <p className="w-full group-hover:top-0  group-hover:left-0 bg-black -z-10 text-zinc-800 transition-all delay-75 absolute top-1.5 left-2.5 p-1">Наши уроки</p>
+                    <p className="w-full group-hover:top-0  group-hover:left-0 bg-white -z-10 text-white transition-all delay-75 absolute top-1.5 left-2.5">
+                      <div className="flag-wrapper w-24 h-10 relative overflow-hidden flex items-center">
+                      <div className="redb w-12 h-24 bg-red-600 absolute rounded-e-full"></div>
+                      </div>
+                    </p>
                   </p>
-                  <p className="ml-4 mt-2 text-xl h-10 z-10 font-extrabold text-white relative cursor-pointer group flex justify-center p-1">
+                  <p className="mt-4 ml-4 text-xl h-10 z-10 font-extrabold text-black relative cursor-pointer group flex justify-center p-1">
                     Рекомендации
-                    <p className="w-full group-hover:top-0  group-hover:left-0 bg-black -z-10 text-zinc-800 transition-all delay-75 absolute top-1.5 left-2.5 p-1">Рекомендации</p>
+                    <p className="w-full group-hover:top-0  group-hover:left-0 bg-white -z-10 text-white transition-all delay-75 absolute top-1.5 left-2.5">
+                      <div className="flag-wrapper w-10 h-10 relative overflow-hidden">
+                      <div className="redb w-10 h-10 bg-red-600 absolute -top-2 rounded-ee-full"></div>
+                      </div>
+                    </p>
                   </p>
                   <p className="ml-4 mt-2 text-xl h-10 z-10 font-extrabold text-white relative cursor-pointer group flex justify-center p-1">
                     Обновления сайта
