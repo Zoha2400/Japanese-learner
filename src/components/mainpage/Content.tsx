@@ -3,6 +3,7 @@ import Footer from "../fixed-comps/Footer"
 import Header from "../fixed-comps/Header"
 import Items from "./Items"
 import Menu from "./Menu"
+import Drag from './Drag'
 
 
 function Content() {
@@ -16,6 +17,8 @@ function Content() {
   return (
     <div>
       <Header isClicked={isClicked} clickDetect={clickDetect} />
+
+      <Drag/>
 
       <Items />
 
