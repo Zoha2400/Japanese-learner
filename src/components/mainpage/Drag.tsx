@@ -1,14 +1,15 @@
 import saitama from '../../img/saitama.png'
+import { Parallax } from 'react-scroll-parallax'
 
 function Drag() {
 
   return (
-    <div className="w-full h-48 sm:h-96 overflow-hidden flex items-center relative">
-        <div className="bg -z-10 w-full h-full bg-purple-700 relative">
-          <img src={saitama} className='w-40 h-auto absolute -bottom-3 left-10'/>
-          <div className="text-saitama rounded-3xl shadow-slate-700 shadow-md w-auto absolute bottom-32 left-44 text-sm h-auto p-4 break-words bg-white ">Добро пожаловать</div>
+    <div className="w-full h-48 sm:h-96 overflow-hidden flex items-center relative bg-purple-700">
+        <div className="bg z-0 w-56 h-56 bottom-0 left-0 lg:left-20 absolute">
+          <img src={saitama} className='w-36 h-auto absolute -bottom-3'/>
+          <div className="text-saitama rounded-3xl shadow-slate-700 shadow-md w-auto absolute bottom-32 left-32 text-xs h-auto p-2 break-words bg-white ">Добро пожаловать</div>
         </div>
-        <h1 className='absolute z-0 text-white text-9xl font-bold flex justify-center items-center w-full'>Toky<span className='text-red-600'>o</span>Talk</h1>
+        <h1 className='absolute z-0 text-white text-4xl xl:text-9xl sm:text-6xl lg:text-7xl font-bold flex justify-center items-center w-full'>Toky<span className='text-red-600'>o</span>Talk</h1>
     </div>
   )
 }
