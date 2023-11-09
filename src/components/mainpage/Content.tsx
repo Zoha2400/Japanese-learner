@@ -15,7 +15,7 @@ function Content() {
   }
     
   return (
-    <div>
+    <div className='h h-full relative'>
       <Header isClicked={isClicked} clickDetect={clickDetect} />
 
       <Drag/>
@@ -25,6 +25,8 @@ function Content() {
       <Menu isClicked={isClicked}/>
 
       <Footer />
+
+      <div className="darkmode"></div>
     </div>
   )
 }

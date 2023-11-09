@@ -14,6 +14,10 @@ body::-webkit-scrollbar {
   width: 6px;
 }
 
+.h{
+  min-height: 2000px!important;
+}
+
 /* Стилизация вертикальной полосы прокрутки */
 body::-webkit-scrollbar-thumb {
   background-color: #e2e2e2; /* Цвет полосы прокрутки */
