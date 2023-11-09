@@ -1,21 +1,30 @@
 import Taps from "./taps"
+import kitagawa from '../../img/kitagawa.jpg'
+import meimei from '../../img/meimei.jpg'
+import makima from '../../img/makima.jpg'
+import sleep from '../../img/sleep.jpg'
+import kaguya from '../../img/kaguya.jpg'
 
 function Items() {
 
     interface Tap {
         name: string,
         input: string,
-        airing: string
+        airing: string,
+        img: string,
+        rotate: string,
     }
     
 
     const subjects: Tap[]= [
-        {name: 'hiro', input: 'Хирагана', airing: 'done'},
-        {name: 'kata', input: 'Катакана', airing: 'soon'},
-        {name: 'kanji', input: 'Иероглифы', airing: 'soon'},
-        {name: 'grammar', input: 'Грамматика', airing: 'soon'},
-        {name: 'all', input: 'Смешанно', airing: 'soon'},
+        {name: 'hiro', input: 'Хирагана', airing: 'done', img: kitagawa, rotate: 'rotate-90'},
+        {name: 'kata', input: 'Катакана', airing: 'soon', img: meimei, rotate: '-rotate-90'},
+        {name: 'kanji', input: 'Иероглифы', airing: 'soon', img: makima, rotate: '-rotate-90'},
+        {name: 'grammar', input: 'Грамматика', airing: 'soon', img: sleep, rotate: 'rotate-90'},
+        {name: 'all', input: 'Смешанно', airing: 'soon', img: kaguya, rotate: '-rotate-90'},
     ]
+
+
 
   return (
     <div className="p-4">
