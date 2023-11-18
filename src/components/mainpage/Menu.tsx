@@ -6,7 +6,7 @@ import jpBg from '../../img/bg-jp.svg'
 
 function Menu({isClicked}) {
   return (
-    <div className={`w-full absolute bottom-0 z-0 delay-400 transparent transition-all overflow-hidden ease-in-out left-0 ${isClicked ? 'h-screen' : 'h-0'}`}>
+    <div className={`w-full absolute bottom-0 z-0 top-0 delay-400 transparent transition-all overflow-hidden ease-in-out left-0 ${isClicked ? 'h-screen' : 'h-0'}`}>
         <div className="bg absolute w-full h-full flex justify-between">
           <div className={`bg-side flex justify-center items-center bottom-0 absolute w-full left-0 transition-all delay-400 lg:w-6/12 bg-fuchsia-900 ${isClicked ? 'h-screen' : 'h-0'}`}>
             <img src={jpBg} className='opacity-50 w-4/5' alt="" />

@@ -15,7 +15,7 @@ function Content() {
   }
     
   return (
-    <div className='h h-full relative'>
+    <div className='h-full h relative'>
       <Header isClicked={isClicked} clickDetect={clickDetect} />
 
       <Drag/>
