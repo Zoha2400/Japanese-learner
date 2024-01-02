@@ -113,14 +113,14 @@ const NLevels = () => {
   return (
     <div className="relative flex justify-start w-full gap-4 p-4 mt-8 overflow-hidden bg-red-100">
       <div className="z-20 flex flex-col items-center h-auto gap-2 rounded-lg">
-        <div className="box-border flex flex-col justify-center w-40 gap-1 p-2 bg-purple-900 rounded-md bg-red">
+        <div className="box-border flex flex-col justify-center w-40 gap-1 p-2 bg-gray-100 rounded-md bg-red">
           {hashLvls.map((el, key) => (
             <animated.button
               key={key}
               className={`rounded-md w-30  ${
                 chooseN[1] === el[1]
-                  ? "bg-white text-black"
-                  : "bg-purple-700 text-white"
+                  ? "bg-red-600 text-white"
+                  : "bg-gray-100 text-black"
               }`}
               onClick={() => {
                 // Скрывать элемент вверху
