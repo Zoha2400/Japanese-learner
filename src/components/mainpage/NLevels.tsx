@@ -111,7 +111,7 @@ const NLevels = () => {
   // ...
 
   return (
-    <div className="relative flex justify-start w-full gap-4 p-4 mt-8 overflow-hidden bg-red-100">
+    <div className="relative flex flex justify-start w-full gap-4 p-4 mt-8 overflow-hidden bg-red-100">
       <div className="z-20 flex flex-col items-center h-auto gap-2 rounded-lg">
         <div className="box-border flex flex-col justify-center w-40 gap-1 p-2 bg-gray-100 rounded-md bg-red">
           {hashLvls.map((el, key) => (
